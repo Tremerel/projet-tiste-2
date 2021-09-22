@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background: #b2bea7;
+
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    border-radius: 5px;
+    box-shadow: inset 0 0 10px rgba(0,0,0,0.25);
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 5px;
+    background: #5b6651;
+}
+
+
+/* Footer part */
+/* section{
+    position: relative;
+    height: 100%;
+    margin-bottom: 400px;
+    background: #dbe9cf;
+    z-index: 3;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    z-index: 0;
+    width: 100%;
+    height: 150px;
+    background: black;
+} */

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Roses des Vents</title>
+    <link rel="icon" type="image/svg" href="content/logo.svg" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/navigation.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <script src="js/navigation.js" defer></script>
+    <script src="js/main-slider.js" defer></script>
+</head>
+<body>
+
+<div class="toggleContainer">
+    <div class="menuToggle" onclick="toggleMenu()"></div>
+</div>
+
+<div class="navContainer"> 
+    <div class="navigation">
+
+        <div class="navArea">
+            <ul>
+                <li>
+                    <a href="index.html" onmouseenter="changeImage('content/acceuil.png')">Acceuil</a>
+                </li>
+                <li>
+                    <a href="services.html" onmouseenter="changeImage('content/services.png')">Services</a>
+                </li>
+                <li>
+                    <a href="galerie.html" onmouseenter="changeImage('content/galerie.png')">Galerie</a>
+                </li>
+                <li>
+                    <a href="contact.html" onmouseenter="changeImage('content/contact.png')">Contact</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="imgArea">
+            <div class="text">
+                <img src="content/logo.svg" alt="La rose des vents">
+            </div>
+            <img src="content/acceuil.png" alt="acceuil" id="slider">
+        </div>
+
+        <div class="mapArea">
+            <img src="content/map-nb.png" alt="">
+            <div class="text">
+                <h4>Adresse</h4>
+                <p>30 avenue du vents</p>
+                <p>06000 Nice</p>
+                <h4>Contact</h4>
+                <a url="larosedesvents@gmail.com">larosedesvents@gmail.com</a>
+                <p>+33 6 49 45 78 56</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="containerTitle">
+    <div class="title">
+        <h1>Contact</h1>
+    </div>
+</div>
+
+<form action="" class="contact-form">
+    <input type="text" name="nom" class="contact-form-text" placeholder="Votre nom...">
+    <input type="email" name="email" class="contact-form-text" placeholder="Votre Email...">
+    <input type="text" name="phone" class="contact-form-text" placeholder="Votre numéro de téléphone...">
+    <textarea class="contact-form-text" name="text" placeholder="Description..."></textarea>
+    <input type="submit" class="contact-form-btn" value="Envoyer">
+</form>
+
+    </html>

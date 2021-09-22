@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Roses des Vents</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/navigation.css">
+    <link rel="stylesheet" href="css/main-slider.css">
+    <script src="js/navigation.js" defer></script>
+    <script src="js/main-slider.js" defer></script>
+</head>
+<body>
+
+    <div class="toggleContainer">
+    <div class="menuToggle" onclick="toggleMenu()"></div>
+    </div>
+    <div class="navContainer"> 
+    <div class="navigation">
+
+        <div class="navArea">
+            <ul>
+                <li>
+                    <a href="index.html" onmouseenter="changeImage('content/acceuil.png')">Acceuil</a>
+                </li>
+                <li>
+                    <a href="services.html" onmouseenter="changeImage('content/services.png')">Services</a>
+                </li>
+                <li>
+                    <a href="galerie.html" onmouseenter="changeImage('content/galerie.png')">Galerie</a>
+                </li>
+                <li>
+                    <a href="contact.html" onmouseenter="changeImage('content/contact.png')">Contact</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="imgArea">
+            <div class="text">
+                <img src="content/logo.svg" alt="La rose des vents">
+            </div>
+            <img src="content/acceuil.png" alt="acceuil" id="slider">
+        </div>
+
+        <div class="mapArea">
+            <img src="content/map-nb.png" alt="">
+            <div class="text">
+                <h4>Adresse</h4>
+                <p>30 avenue du vents</p>
+                <p>06000 Nice</p>
+                <h4>Contact</h4>
+                <a url="larosedesvents@gmail.com">larosedesvents@gmail.com</a>
+                <p>+33 6 49 45 78 56</p>
+            </div>
+        </div>
+        </div>
+    </div>
+
+<div class="slider-container">
+    <div class="slider">
+        <div class="slides">
+
+            <input type="radio" name="radio-btn" id="photo1">
+            <input type="radio" name="radio-btn" id="photo2">
+            <input type="radio" name="radio-btn" id="photo3">
+            <input type="radio" name="radio-btn" id="photo4">
+
+            <div class="slide first">
+                <img src="content/photo-1-small.png" alt="">
+            </div>
+            <div class="slide">
+                <img src="content/photo-2-small.png" alt="">
+            </div>
+            <div class="slide">
+                <img src="content/photo-3-small.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="content/photo-4-small.jpg" alt="">
+            </div>
+
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+            </div>
+
+        </div>
+        <div class="navigation-manual">
+            <label for="photo1" class="manual-btn"></label>
+            <label for="photo2" class="manual-btn"></label>
+            <label for="photo3" class="manual-btn"></label>
+            <label for="photo4" class="manual-btn"></label>
+        </div>
+    </div>
+</div>
+<section>
+    
+</section>
+<footer class="fixed-footer">
+
+</footer>
+
+</body>
+</html>
